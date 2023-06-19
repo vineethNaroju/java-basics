@@ -1,4 +1,4 @@
-
+package src.main.java;
 // https://www.hackerrank.com/challenges/java-bitset/problem?isFullScreen=true
 
 import java.io.BufferedReader;
