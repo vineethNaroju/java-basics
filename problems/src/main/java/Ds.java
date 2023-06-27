@@ -56,7 +56,7 @@ public class Ds {
             return 1;
         });
 
-       pw.println(vals);
+        pw.println(vals);
 
 
        BitSet bs = new BitSet(10);
@@ -131,6 +131,11 @@ public class Ds {
         while(!maxHeap.isEmpty()) {
             pw.println(maxHeap.poll());
         }
+
+        pw.println("hash map");
+
+        HashMap<Integer, Val> hashMap = new HashMap<>();
+
 
 
         pw.flush();
